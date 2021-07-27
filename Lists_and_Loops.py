@@ -11,8 +11,7 @@ def initials(phrase):
     return result.upper()
   
 """
-The even_numbers function returns a space-separated string of all positive numbers that are divisible by 2, 
-up to and including the maximum that's passed into the function. 
+The even_numbers function returns a space-separated string of all positive numbers that are divisible by 2, up to and including the maximum that's passed into the function. 
 Input: Maximum number
 Output: All of the positive numbers that are divisible by two, up to and including the maximum 
 """
@@ -24,8 +23,7 @@ def even_numbers(maximum):
 	return return_string.strip()
 
 """
-The counter function accepts start and stop parameters, 
-decides accordingly whether to count up or down and then counts from start to stop. 
+The counter function accepts start and stop parameters, decides accordingly whether to count up or down and then counts from start to stop. 
 Inputs: Start and Stop parameters
 Outputs: The full count from start to stop, returned as a string
 """
@@ -62,7 +60,7 @@ def digits(n):
         return count
  
 """ 
-The list_of_prime_factors function prints all the prime factors of a number 
+The list_of_prime_factors function prints all the prime factors of a number. 
 Input: The number that you want the prime factors of 
 Outputs: The number's prime factors 
 """
@@ -83,10 +81,10 @@ def list_of_prime_factors(number):
   return "Finished"
 
 """
-* This code reads an integer number from the console and stores the result in the veribale n. 
-* It then reads 'n' floating point numers from the console and stores them in a list.
-* The list is sorted in the reverse order from highest to lowest. 
-* Finally, the script loops over the elements in the list and prints each on its own line to the console. 
+This code reads an integer number from the console and stores the result in the veribale n. 
+> It then reads 'n' floating point numers from the console and stores them in a list.
+> The list is sorted in the reverse order from highest to lowest. 
+> Finally, the script loops over the elements in the list and prints each on its own line to the console. 
 Inputs = n (the number of flaoting point numbers to be read) & 'n' floating point numbers
 Outputs = n floating point numbers, one per line, sorted from highest to lowest 
 """
