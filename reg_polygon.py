@@ -3,7 +3,7 @@ This exercise tests the use of:
 * conditional statements 
 * console I/O
 * functions
-* setting axises sizes and labels 
+* setting axis sizes and labels 
 """
 import math 
 from matplotlib import pyplot as plt
